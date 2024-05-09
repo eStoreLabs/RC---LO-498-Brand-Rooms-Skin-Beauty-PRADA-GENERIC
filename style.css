@@ -701,6 +701,12 @@ body {
   #es-prada.es-prada .es-footer__links-item a {
     font-size: 13px;
   }
+  #es-prada.es-prada .es-footer__links-first {
+    margin-top: -3px;
+  }
+  #es-prada.es-prada .es-footer__social {
+    margin-top: -25px;
+  }
 }
 @media screen and (min-width: 1300px) {
   #es-prada.es-prada .es-header__menu {

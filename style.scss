@@ -814,6 +814,14 @@ body {
       &__links-item a {
         font-size: 13px;
       }
+
+      &__links-first {
+        margin-top: -3px;
+      }
+
+      &__social {
+        margin-top: -25px;
+      }
     }
   }
 
