@@ -98,9 +98,13 @@ body {
 
     &__menu-link {
       font-weight: 400;
-      font-size: 14px;
+      font-size: 13px;
       color: #fff;
       text-decoration: none;
+    }
+
+    &__menu-link-arrow {
+      cursor: pointer;
     }
 
     &__search-wrapper {
@@ -205,8 +209,8 @@ body {
     &__item-link {
       display: block;
       margin: 0 auto;
-      padding: 24px 35px;
-      max-width: 578px;
+      padding: 20px 35px;
+      max-width: 518px;
       font-family: $secondary;
       font-weight: 400;
       font-size: 18px;
@@ -281,7 +285,7 @@ body {
     }
     &__item-title {
       @include text;
-      min-height: 80px;
+      min-height: 55px;
       margin-bottom: 30px;
       font-weight: 500;
       font-size: 20px;
@@ -736,7 +740,7 @@ body {
     }
 
     .es-title {
-      font-size: 48px;
+      font-size: 44px;
     }
   }
 
@@ -810,6 +814,21 @@ body {
       &__links-item a {
         font-size: 13px;
       }
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    .es-header {
+      &__menu {
+        column-gap: 50px;
+      }
+    }
+
+    .es-slider,
+    .es-category,
+    .es-cross,
+    .es-video {
+      margin-bottom: 114px;
     }
   }
 

@@ -77,9 +77,12 @@ body {
 }
 #es-prada.es-prada .es-header__menu-link {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   color: #fff;
   text-decoration: none;
+}
+#es-prada.es-prada .es-header__menu-link-arrow {
+  cursor: pointer;
 }
 #es-prada.es-prada .es-header__search-wrapper {
   position: relative;
@@ -172,8 +175,8 @@ body {
 #es-prada.es-prada .es-category__item-link {
   display: block;
   margin: 0 auto;
-  padding: 24px 35px;
-  max-width: 578px;
+  padding: 20px 35px;
+  max-width: 518px;
   font-family: "Yeseva One", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -262,7 +265,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  min-height: 80px;
+  min-height: 55px;
   margin-bottom: 30px;
   font-weight: 500;
   font-size: 20px;
@@ -645,7 +648,7 @@ body {
     top: -20px;
   }
   #es-prada.es-prada .es-title {
-    font-size: 48px;
+    font-size: 44px;
   }
 }
 @media screen and (min-width: 925px) {
@@ -697,6 +700,18 @@ body {
   }
   #es-prada.es-prada .es-footer__links-item a {
     font-size: 13px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #es-prada.es-prada .es-header__menu {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  #es-prada.es-prada .es-slider,
+  #es-prada.es-prada .es-category,
+  #es-prada.es-prada .es-cross,
+  #es-prada.es-prada .es-video {
+    margin-bottom: 114px;
   }
 }
 @keyframes slidedown {
