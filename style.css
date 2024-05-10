@@ -396,14 +396,14 @@ body {
 }
 #es-prada.es-prada .slick-button-prev {
   position: absolute;
-  top: 20%;
+  top: 35%;
   left: 15px;
   rotate: 180deg;
   cursor: pointer;
 }
 #es-prada.es-prada .slick-button-next {
   position: absolute;
-  top: 20%;
+  top: 35%;
   right: 15px;
   cursor: pointer;
 }
@@ -587,8 +587,7 @@ body {
   }
   #es-prada.es-prada .es-slick-carousel--mobile,
   #es-prada.es-prada .slick-button-prev,
-  #es-prada.es-prada .slick-button-next,
-  #es-prada.es-prada .es-slider__arrow {
+  #es-prada.es-prada .slick-button-next {
     display: none;
   }
   #es-prada.es-prada .slick-pagination-2,

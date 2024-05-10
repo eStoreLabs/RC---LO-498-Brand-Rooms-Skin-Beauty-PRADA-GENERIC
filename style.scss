@@ -424,7 +424,7 @@ body {
 
   .slick-button-prev {
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 15px;
     rotate: 180deg;
     cursor: pointer;
@@ -432,7 +432,7 @@ body {
 
   .slick-button-next {
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 15px;
     cursor: pointer;
   }
@@ -667,8 +667,7 @@ body {
 
     .es-slick-carousel--mobile,
     .slick-button-prev,
-    .slick-button-next,
-    .es-slider__arrow {
+    .slick-button-next {
       display: none;
     }
 
