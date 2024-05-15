@@ -67,7 +67,7 @@ body {
   }
 
   .es-banner {
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 57px;
     padding-left: 15px;
     padding-right: 15px;
@@ -89,6 +89,10 @@ body {
   .es-slider {
     position: relative;
     margin-bottom: 30px;
+
+    &--desktop {
+      display: none;
+    }
 
     &__image {
       @include img;
@@ -487,6 +491,10 @@ body {
   }
 
   @media screen and (min-width: 768px) {
+    .es-banner {
+      padding-top: 90px;
+    }
+
     .slick-dots {
       left: 50%;
     }
@@ -498,6 +506,13 @@ body {
     }
 
     .es-slider {
+      &--mobile {
+        display: none;
+      }
+
+      &--desktop {
+        display: block;
+      }
       &__image {
         &--desktop {
           display: block;
