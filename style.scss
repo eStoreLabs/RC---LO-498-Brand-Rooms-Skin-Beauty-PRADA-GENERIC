@@ -177,8 +177,7 @@ body {
     &__container {
       display: flex;
       flex-wrap: wrap;
-      flex-flow: column;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       padding: 0 8px;
       margin: 0 -16px;
@@ -186,14 +185,14 @@ body {
     &__img {
       @include img;
       max-height: 290px;
-      max-width: 220px;
+      max-width: 135px;
 
       &--3 {
         margin-right: -50px;
       }
     }
     &__single {
-      max-width: 275px;
+      max-width: 135px;
       margin-bottom: 25px;
       padding: 0 8px;
       display: flex;
@@ -232,10 +231,10 @@ body {
     }
     &__item-title {
       @include text;
-      min-height: 55px;
+      min-height: 95px;
       margin-bottom: 30px;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
       color: $black;
     }
@@ -249,9 +248,9 @@ body {
       @include text;
       font-family: $secondary;
       color: $white;
-      min-width: 195px;
+      min-width: 135px;
       background: $black;
-      font-size: 16px;
+      font-size: 14px;
       text-decoration: none;
       text-transform: uppercase;
       padding: 16px 24px;
@@ -457,6 +456,15 @@ body {
     display: none !important;
   }
 
+  @media screen and (min-width: 400px) {
+    .es-cross {
+      &__container {
+        margin: 0 auto;
+        max-width: 320px;
+      }
+    }
+  }
+
   @media screen and (min-width: 560px) {
     .es-cross {
       &__container {
@@ -470,6 +478,27 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         align-items: flex-end;
+      }
+
+      &__img {
+        max-height: 290px;
+        max-width: 220px;
+      }
+
+      &__single {
+        max-width: 275px;
+      }
+
+      &__link {
+        font-family: $secondary;
+        color: $white;
+        min-width: 195px;
+        background: $black;
+        font-size: 16px;
+      }
+
+      &__item-title {
+        font-size: 20px;
       }
     }
 

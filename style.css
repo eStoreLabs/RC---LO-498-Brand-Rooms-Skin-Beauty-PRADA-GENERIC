@@ -145,8 +145,7 @@ body {
 #es-prada.es-prada .es-cross__container {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 0 8px;
   margin: 0 -16px;
@@ -156,13 +155,13 @@ body {
   display: block;
   margin: 0 auto;
   max-height: 290px;
-  max-width: 220px;
+  max-width: 135px;
 }
 #es-prada.es-prada .es-cross__img--3 {
   margin-right: -50px;
 }
 #es-prada.es-prada .es-cross__single {
-  max-width: 275px;
+  max-width: 135px;
   margin-bottom: 25px;
   padding: 0 8px;
   display: flex;
@@ -216,10 +215,10 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  min-height: 55px;
+  min-height: 95px;
   margin-bottom: 30px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   color: #000000;
 }
@@ -237,9 +236,9 @@ body {
   font-weight: inherit;
   font-family: "Yeseva One", sans-serif;
   color: #ffffff;
-  min-width: 195px;
+  min-width: 135px;
   background: #000000;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
   padding: 16px 24px;
@@ -416,6 +415,12 @@ body {
 #es-prada.es-prada .slick-arrow.slick-disabled {
   display: none !important;
 }
+@media screen and (min-width: 400px) {
+  #es-prada.es-prada .es-cross__container {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
 @media screen and (min-width: 560px) {
   #es-prada.es-prada .es-cross__container {
     max-width: 628px;
@@ -424,6 +429,23 @@ body {
     flex-flow: row;
     flex-wrap: wrap;
     align-items: flex-end;
+  }
+  #es-prada.es-prada .es-cross__img {
+    max-height: 290px;
+    max-width: 220px;
+  }
+  #es-prada.es-prada .es-cross__single {
+    max-width: 275px;
+  }
+  #es-prada.es-prada .es-cross__link {
+    font-family: "Yeseva One", sans-serif;
+    color: #ffffff;
+    min-width: 195px;
+    background: #000000;
+    font-size: 16px;
+  }
+  #es-prada.es-prada .es-cross__item-title {
+    font-size: 20px;
   }
   #es-prada.es-prada .es-video__player--mobile {
     display: none;
